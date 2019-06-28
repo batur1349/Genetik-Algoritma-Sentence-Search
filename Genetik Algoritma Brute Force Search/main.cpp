@@ -18,4 +18,6 @@ int main()
 	GeneticAlgorithm ga(40, target, 0.01f);
 	ga.Run();
 	std::cout << "Found the target sentence!" << std::endl;
+	std::system("PAUSE");
+	return 0;
 }

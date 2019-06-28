@@ -23,4 +23,3 @@ private:
 	int _fitness;
 	std::vector<char> _gene;
 };
-
